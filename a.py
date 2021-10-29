@@ -7,3 +7,5 @@ print(e)
 
 b = 6 
 print(b)
+
+# nguyenvanthuan
