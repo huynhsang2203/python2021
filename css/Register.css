@@ -1,0 +1,141 @@
+/* main */
+body{
+    overflow: hidden;
+}
+.container{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url(../img/background.jpg);
+}
+
+.register-form{
+    background-color: rgb(211, 182, 182);
+    width: 400px;
+    height: 500px;
+    padding: 30px 30px;
+    border-radius: 10px;
+}
+
+h2{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.register-form .hoten .ho{
+   height: 30px;
+   width: 80%;
+   margin-bottom: 15px;
+   transition: all .4s;
+   cursor: pointer;
+}
+
+.register-form .hoten .ho:hover{
+    background-color: rgb(182, 238, 177);
+}
+
+.register-form .Email input{
+    cursor: pointer;
+    height: 30px;
+    width: 80%;
+    margin-bottom: 15px;
+}
+
+.register-form .Email input:hover{
+    background-color: rgb(182, 238, 177);
+}
+
+.register-form .password input{
+    height: 30px;
+    width: 80%;
+    margin-bottom: 15px;
+    cursor: pointer;
+    transition: all .4s;
+}
+
+.register-form .password input:hover{
+    background-color: rgb(182, 238, 177);
+}
+
+span{
+    float: left;
+    margin-left: 9%;
+}
+
+li {
+    text-align: none;
+    list-style: none;
+    float: left;
+    margin-left: 5px;
+}
+ 
+.register-form .dd input {
+    margin-top: 25px;
+    font-size: 14px;
+    width: 15%;
+    float: left;
+    margin-left: -85px;
+    cursor: pointer;
+    transition: all .4s;
+}
+
+.register-form .dd input:hover{
+    background-color: rgb(182, 238, 177);
+}
+
+.register-form .mm input {
+    margin-top: 25px;
+    font-size: 14px;
+    width: 15%;
+    margin-left: -240px;
+    cursor: pointer;
+    transition: all .4s;
+}
+
+.register-form .mm input:hover{
+    background-color: rgb(182, 238, 177);
+}
+
+.register-form .yyyy input {
+    margin-top: -23px;
+    font-size: 14px;
+    width: 15%;
+    margin-left: 176px;
+    float: left;
+    cursor: pointer;
+    transition: all .4s;
+}
+
+.register-form .yyyy input:hover{
+    background-color: rgb(182, 238, 177);
+}
+
+.gioitinh1{
+    margin-top: 5px;
+}
+
+li .small-icons{
+    margin-top: 5px;
+}
+
+.gioitinh{
+    margin-top: 28px;
+    margin-left: -58%;
+}
+
+.Register{
+    font-size: 20px;
+    margin-top: 40px ;
+    width: 40%;
+    padding-top: 5px 0px 5px;
+    border-radius: 5px;
+    background: rgb(189, 90, 115);
+    transition: all .3s;
+
+}
+
+.Register:hover{
+    background: rgb(49, 196, 44);
+}
