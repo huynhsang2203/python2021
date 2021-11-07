@@ -1,8 +1,10 @@
 /* main */
-body{
+
+body {
     overflow: hidden;
 }
-.container{
+
+.container {
     display: flex;
     text-align: center;
     align-items: center;
@@ -11,7 +13,7 @@ body{
     background-image: url(../img/background.jpg);
 }
 
-.register-form{
+.register-form {
     background-color: rgb(211, 182, 182);
     width: 400px;
     height: 500px;
@@ -19,35 +21,46 @@ body{
     border-radius: 10px;
 }
 
-h2{
+h2 {
     font-size: 30px;
     margin-bottom: 30px;
 }
 
-.register-form .hoten .ho{
-   height: 30px;
-   width: 80%;
-   margin-bottom: 15px;
-   transition: all .4s;
-   cursor: pointer;
+.register-form .fullname .ho {
+    height: 30px;
+    width: 80%;
+    margin-bottom: 15px;
+    transition: all .4s;
+    cursor: pointer;
 }
 
-.register-form .hoten .ho:hover{
+.register-form .hoten .ho:hover {
     background-color: rgb(182, 238, 177);
 }
 
-.register-form .Email input{
+.register-form .email input {
     cursor: pointer;
     height: 30px;
     width: 80%;
     margin-bottom: 15px;
 }
 
-.register-form .Email input:hover{
+.register-form .email input:hover {
     background-color: rgb(182, 238, 177);
 }
 
-.register-form .password input{
+.register-form .username input {
+    cursor: pointer;
+    height: 30px;
+    width: 80%;
+    margin-bottom: 15px;
+}
+
+.register-form .username input:hover {
+    background-color: rgb(182, 238, 177);
+}
+
+.register-form .password input {
     height: 30px;
     width: 80%;
     margin-bottom: 15px;
@@ -55,11 +68,11 @@ h2{
     transition: all .4s;
 }
 
-.register-form .password input:hover{
+.register-form .password input:hover {
     background-color: rgb(182, 238, 177);
 }
 
-span{
+span {
     float: left;
     margin-left: 9%;
 }
@@ -70,7 +83,7 @@ li {
     float: left;
     margin-left: 5px;
 }
- 
+
 .register-form .dd input {
     margin-top: 25px;
     font-size: 14px;
@@ -81,7 +94,7 @@ li {
     transition: all .4s;
 }
 
-.register-form .dd input:hover{
+.register-form .dd input:hover {
     background-color: rgb(182, 238, 177);
 }
 
@@ -94,7 +107,7 @@ li {
     transition: all .4s;
 }
 
-.register-form .mm input:hover{
+.register-form .mm input:hover {
     background-color: rgb(182, 238, 177);
 }
 
@@ -108,34 +121,33 @@ li {
     transition: all .4s;
 }
 
-.register-form .yyyy input:hover{
+.register-form .yyyy input:hover {
     background-color: rgb(182, 238, 177);
 }
 
-.gioitinh1{
+.gioitinh1 {
     margin-top: 5px;
 }
 
-li .small-icons{
+li .small-icons {
     margin-top: 5px;
 }
 
-.gioitinh{
+.gioitinh {
     margin-top: 28px;
     margin-left: -58%;
 }
 
-.Register{
+.Register {
     font-size: 20px;
-    margin-top: 40px ;
+    margin-top: 40px;
     width: 40%;
     padding-top: 5px 0px 5px;
     border-radius: 5px;
     background: rgb(189, 90, 115);
     transition: all .3s;
-
 }
 
-.Register:hover{
+.Register:hover {
     background: rgb(49, 196, 44);
 }
