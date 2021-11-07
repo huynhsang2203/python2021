@@ -1,0 +1,55 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="{%static '/web/register.css' %}">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+</head>
+
+<body>
+    <header>
+        <main>
+            <div class="container">
+                <div class="register-form">
+                    <h2>Đăng ký</h2>
+                    <div class="row">
+                        <div class="hoten">
+                            <input class="ho" type="text" placeholder="Họ và Tên">
+                        </div>
+                        <div class="Email">
+                            <input type="text" placeholder="Email hoặc Số điện thoại">
+                        </div>
+                        <div class="password">
+                            <input type="password" placeholder="Mật khẩu mới">
+                            <input type="password" placeholder="Nhập lại mật khẩu">
+                        </div>
+                        <span>Ngày sinh</span>
+                        <li><i class="fas fa-map-marker-question small-icon"></i></li>
+                        <div class="dd">
+                            <input type="text" placeholder="DD">
+                        </div>
+                        <div class="mm">
+                            <input type="text" placeholder="MM">
+                        </div>
+                        <div class="yyyy">
+                            <input type="text" placeholder="YYYY">
+                        </div>
+                        <span class="gioitinh1">Giới tính</span>
+                        <li><i class="fas fa-map-marker-question small-icons"></i></li>
+                        <div class="gioitinh">
+                            <input type="checkbox"> Nam
+                            <input type="checkbox"> Nữ
+                        </div>
+                        <input class="Register" type="Submit" value="Đăng ký">
+                    </div>
+                </div>
+            </div>
+        </main>
+    </header>
+</body>
+
+</html>
