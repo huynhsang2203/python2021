@@ -1,1 +1,5 @@
 {% extends 'web/base.html' %} {% block title %}Trang chủ{%endblock%}
+{%block navbar%}
+<a href="{%url 'page_login'%}" class="login">Login</a>
+<a href="{%url 'register'%}" class="login">Register</a>
+{%endblock%}

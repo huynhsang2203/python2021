@@ -1,0 +1,18 @@
+{%extends 'web/login.html'%}
+{%block header1 %}
+<div class="login-box">
+    <h2>Login</h2>
+    <form action="" method="post">
+        {% csrf_token %}
+        <div class="user-box">
+            <input type="text" name="username" required="">
+            <label>Username</label>
+        </div>
+        <div class="user-box">
+            <input type="password" name="matkhau" required="">
+            <label>Password</label>
+        </div>
+        <input type="submit" value="Đăng nhập">
+    </form>
+</div>
+{%endblock%}
