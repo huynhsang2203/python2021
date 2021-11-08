@@ -34,7 +34,7 @@ h2 {
     cursor: pointer;
 }
 
-.register-form .hoten .ho:hover {
+.register-form .fullname .ho:hover {
     background-color: rgb(182, 238, 177);
 }
 
